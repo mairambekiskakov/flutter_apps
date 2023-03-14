@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main(List<String> args) {
@@ -12,10 +11,10 @@ class MyWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      backgroundColor: Color.fromARGB(255, 173, 214, 233),
+      backgroundColor: const Color.fromARGB(255, 173, 214, 233),
       appBar: AppBar(
-        title: Center(
-            child: const Text(
+        title: const Center(
+            child: Text(
           'First Screen of My Appl',
           style: TextStyle(
             color: Colors.black,
@@ -31,7 +30,7 @@ class MyWidget extends StatelessWidget {
                 height: 80,
                 width: 80,
                 color: Colors.red,
-                child: Center(
+                child: const Center(
                   child: Text(
                     '1',
                     style: TextStyle(
@@ -41,15 +40,15 @@ class MyWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               Container(
                 height: 100,
                 width: 100,
                 color: Colors.yellow,
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     '2',
                     style: TextStyle(
                         color: Colors.black,
@@ -62,8 +61,8 @@ class MyWidget extends StatelessWidget {
                 height: 120,
                 width: 120,
                 color: Colors.green,
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     '3',
                     style: TextStyle(
                         color: Colors.black,
@@ -78,7 +77,7 @@ class MyWidget extends StatelessWidget {
                 height: 80,
                 width: 80,
                 color: Colors.red,
-                child: Center(
+                child: const Center(
                   child: Text(
                     '1',
                     style: TextStyle(
@@ -88,7 +87,7 @@ class MyWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               Container(
@@ -111,8 +110,8 @@ class MyWidget extends StatelessWidget {
                 height: 120,
                 width: 120,
                 color: Colors.green,
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     '3',
                     style: TextStyle(
                         color: Colors.black,
@@ -127,7 +126,7 @@ class MyWidget extends StatelessWidget {
                 height: 80,
                 width: 80,
                 color: Colors.red,
-                child: Center(
+                child: const Center(
                   child: Text(
                     '1',
                     style: TextStyle(
@@ -137,15 +136,15 @@ class MyWidget extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               Container(
                 height: 100,
                 width: 100,
                 color: Colors.yellow,
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     '2',
                     style: TextStyle(
                         color: Colors.black,
@@ -158,8 +157,8 @@ class MyWidget extends StatelessWidget {
                 height: 120,
                 width: 120,
                 color: Colors.green,
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     '3',
                     style: TextStyle(
                         color: Colors.black,
