@@ -91,7 +91,7 @@ class FooterWidget extends StatelessWidget {
               style: TextStyle(
                   decoration: TextDecoration.underline, color: AppColors.red)),
           const SizedBox(height: 8),
-          const Text('Правила заполнения тектса',
+          const Text('Правила заполнения текста',
               style: TextStyle(
                   decoration: TextDecoration.underline, color: AppColors.red)),
           const SizedBox(height: 20),
